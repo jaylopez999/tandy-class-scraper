@@ -1,0 +1,1 @@
+FROM mcr.microsoft.com/playwright/python:v1.45.0-jammy WORKDIR /app COPY requirements.txt /app/ RUN pip install --no-cache-dir -r requirements.txt RUN playwright install --with-deps COPY . /app RUN useradd -m runner USER runner EXPOSE 10000
