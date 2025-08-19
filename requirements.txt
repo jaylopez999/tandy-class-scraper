@@ -1,0 +1,1 @@
+Flask3.0.3 gunicorn22.0.0 gevent24.2.1 Flask_SQLAlchemy3.1.1 SQLAlchemy2.0.30 psycopg2-binary2.9.9 python-dotenv1.0.1 pydantic2.7.1 pytz2024.1 APScheduler3.10.4 icalendar5.0.12 pandas2.2.2 sendgrid6.11.0 playwright1.45.0
